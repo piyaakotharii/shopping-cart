@@ -15,7 +15,6 @@ const Navbar = () => {
     0
   );
 
-
   return (
     <div>
       {LINKS.map(({ link, text }) => (
