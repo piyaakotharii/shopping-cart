@@ -8,7 +8,6 @@ function getComputedCheckoutItems(products, cartItems) {
   const productsInCart = products.filter(p =>
     cartItems.some(item => item.id === p.id)
   );
-
   // attach quantity to every added product
   return productsInCart.map(product => {
     return {
@@ -17,7 +16,6 @@ function getComputedCheckoutItems(products, cartItems) {
     };
   });
 }
-
 const Checkout = () => {
   const cart = useCart();
   const dispatchCart = useCartDispatch();
@@ -30,21 +28,18 @@ const Checkout = () => {
     0
   );
 
-
   const handleAdd = useCallback(
     id => {
       dispatchCart({ type: 'ADD_ONE', id });
     },
     [dispatchCart]
   );
-
   const handleRemoveOne = useCallback(
     id => {
       dispatchCart({ type: 'REMOVE_ONE', id });
     },
     [dispatchCart]
   );
-
   const handleRemove = useCallback(
     id => {
       dispatchCart({ type: 'REMOVE', id });
@@ -54,7 +49,7 @@ const Checkout = () => {
 
   return (
     <div>
-       <h1 className="h3 mb-4">Checkout</h1>
+      <h1 className="h3 mb-4">Checkout</h1>
       <div className="bg-white p-4 shadow-sm rounded-lg">
         <Table responsive>
           <thead>
@@ -125,9 +120,8 @@ const Checkout = () => {
         <div className="text-right">
           <div className="h3">Total ${cartPriceTotal}</div>
         </div>
-        </div>
-    </div>
+      </div>
+      </div>
   );
 };
-
 export default Checkout;

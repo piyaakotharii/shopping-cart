@@ -76,7 +76,7 @@ const Category = ({ category }) => {
           name="expensive"
           checked={filter.expensive}
           onChange={onCheckboxChange}
-          label="Expensive (100+ USD)"
+          label="Expensive (100 + Rs)"
         />
         <div className="mt-">
           Showing {filteredProducts.length} out of {products.length}

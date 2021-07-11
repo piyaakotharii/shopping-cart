@@ -44,7 +44,7 @@ const Navbar = () => {
           >
             {cartItemsTotal}
           </div>
-          <div>${cartPriceTotal}</div>
+          <div>Rs{cartPriceTotal}</div>
         </Link>
       </NavbarText>
     </BootstrapNavbar>
