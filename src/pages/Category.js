@@ -56,7 +56,7 @@ const Category = ({ category }) => {
     <Row>
     <Col xs={12} md={6} className="position-relative">
       <div className="fixed-md">
-        <h2 className="h3">Filters</h2>
+        <h2 className="h3" color="olive ">Filters</h2>
         <FilterCheckbox
           id="delivery"
           name="delivery"
@@ -78,8 +78,8 @@ const Category = ({ category }) => {
           onChange={onCheckboxChange}
           label="Expensive (100 + Rs)"
         />
-        <div className="mt-">
-          Showing {filteredProducts.length} out of {products.length}
+        <div className="mt-">       
+          Showing   {filteredProducts.length}    out of     {products.length}         
         </div>
       </div>
     </Col>

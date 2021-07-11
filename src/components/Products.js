@@ -22,7 +22,9 @@ const Products = ({ products }) => {
     [dispatchCart]
   );
   if (products.length === 0) {
-    return <div>No products found</div>;
+    return <div align = "center" 
+    >OOPSIEEE!!  NO PRODUCTS PAL! 
+    </div>;
   }
   return products.map(
     ({
@@ -38,7 +40,7 @@ const Products = ({ products }) => {
         <CardImg top width="100%" src={thumbnail} alt={name} className="h-50" />
         <CardBody className="font-weight">
           <CardTitle className="h5">{name}</CardTitle>
-          <CardSubtitle className="h5 mb-2">${price}</CardSubtitle>
+          <CardSubtitle className="h5 mb-2">Rs {price}</CardSubtitle>
           {delivery && <CardText className="mb-1">Delivery available</CardText>}
           <CardText className={inStock ? 'text-success' : 'text-danger'}>
             {inStock ? 'In stock' : 'Out of stock'}

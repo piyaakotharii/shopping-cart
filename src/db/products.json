@@ -2,7 +2,7 @@
     {
       "id": "1a",
       "name": "Vero Moda( Women Beige & Black Peplum Top )",
-      "price": 100,
+      "price": 1999,
       "currency": "USD",
       "delivery": false,
       "thumbnail": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14067150/2021/6/9/da1ac3ef-9173-4288-a53d-2562ca8689a41623234040102VeroModaWomenBeigeBlackPeplumTop1.jpg",
@@ -12,7 +12,7 @@
     {
       "id": "2a",
       "name": "Vero Moda( Brown Printed Extended Sleeve Top )",
-      "price": 140,
+      "price": 1799,
       "currency": "USD",
       "delivery": true,
       "thumbnail": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/27/6a723fcf-7b9f-46c0-8957-281191982be51614414255380-1.jpg",
@@ -22,7 +22,7 @@
     {
       "id": "3a",
       "name": "Vero Moda( Women Mustard Yelow & Navy Blue Printed Asymmetric Top )",
-      "price": 80,
+      "price": 2299,
       "currency": "USD",
       "delivery": true,
       "thumbnail": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13293916/2021/2/8/fff7a482-a5cd-4d88-9b71-281a2a0579ad1612780726033-Vero-Moda-Women-Tops-7491612780725023-1.jpg",
@@ -32,7 +32,7 @@
     {
       "id": "4b",
       "name": "SASSAFRAS( Women Grey & Green Floral Print Fit and Flare Dress. )",
-      "price": 60,
+      "price": 2199,
       "currency": "USD",
       "delivery": false,
       "thumbnail": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8643063/2019/2/1/129307b3-ce36-4d6a-b3d6-e7d655eaa8b71549013101841-SASSAFRAS-Women-Beige-Printed-Fit-and-Flare-Dress-1641549013-1.jpg",
@@ -42,7 +42,7 @@
     {
       "id": "5b",
       "name": "SASSAFRAS( Women Blue & Off-White Floral Print Empire Dress )",
-      "price": 115,
+      "price": 1899,
       "currency": "USD",
       "delivery": false,
       "thumbnail": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11364402/2020/1/27/e48cf4ef-a562-46fd-937f-edcfb82ff12a1580104205123-SASSAFRAS-Women-Blue-Printed-A-Line-Dress-5431580104203018-1.jpg",
@@ -52,7 +52,7 @@
     {
       "id": "6b",
       "name": "RARE ( Women Black Printed Fit and Flare Dress )",
-      "price": 60,
+      "price": 1299,
       "currency": "USD",
       "delivery": false,
       "thumbnail": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5803872/2018/5/10/a314d49a-42e9-4533-b588-6a89c2cbea331525933565728-na-9581525933565562-3.jpg",

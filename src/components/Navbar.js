@@ -10,7 +10,7 @@ import {
 
 import { ReactComponent as CartSVG } from '../images/cart.svg';
 import { useCart } from '../lib/cart.context';
-const LINKS = [{ link: '/', text: 'Home' }];
+const LINKS = [{ link: '/', text: 'HOME'  }];
 const Navbar = () => {
   const cart = useCart();
   const cartItemsTotal = cart.reduce((total, item) => total + item.quantity, 0);
@@ -20,7 +20,7 @@ const Navbar = () => {
   );
 
   return (
-    <BootstrapNavbar color="light" light className="px-0 border-bottom mb-3">
+    <BootstrapNavbar  light className="px-0 border-bottom mb-3" color="olive" >
       <Nav className="mr-auto" navbar>
         {LINKS.map(({ link, text }) => (
           <NavItem key={link}>
@@ -36,15 +36,17 @@ const Navbar = () => {
           className="d-flex align-items-center"
           style={{ textDecoration: 'none' }}
         >
-          <CartSVG width={25} />
+          <CartSVG width={35} />
      
           <div
             className="circle bg-dark text-light rounded-circle d-flex justify-content-center align-items-center mx-2"
-            style={{ width: 30, height: 30 }}
+            style={{ width: 30, height: 35}}
           >
             {cartItemsTotal}
           </div>
-          <div>Rs{cartPriceTotal}</div>
+          <div>
+            <b>Rs {cartPriceTotal}</b>
+            </div>
         </Link>
       </NavbarText>
     </BootstrapNavbar>

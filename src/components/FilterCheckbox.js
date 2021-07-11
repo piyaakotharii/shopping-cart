@@ -11,6 +11,7 @@ const FilterCheckbox = ({ id, name, checked, onChange, label }) => {
         checked={checked}
         onChange={onChange}
         label={label}
+        
       />
     </div>
   );

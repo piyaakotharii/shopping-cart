@@ -74,7 +74,7 @@ const Checkout = () => {
                 <td className="font-weight-bold align-middle text-nowrap">
                   {el.name}
                 </td>
-                <td className="font-weight-bold align-middle">${el.price}</td>
+                <td className="font-weight-bold align-middle">Rs {el.price}</td>
                 <td className="font-weight-bold align-middle">
                   <ButtonGroup>
                     <Button
@@ -118,7 +118,7 @@ const Checkout = () => {
         </Table>
         <hr />
         <div className="text-right">
-          <div className="h3">Total ${cartPriceTotal}</div>
+          <div className="font-weight-bold align-middle">Yay! It's just Rs <b> {cartPriceTotal} </b></div>
         </div>
       </div>
       </div>
